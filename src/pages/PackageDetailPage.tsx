@@ -24,17 +24,17 @@ const PackageDetailPage = () => {
         { 
           name: "Ooty", 
           image: "/assets/images/ooty-package.jpg",
-          itinerary: ["Doddabetta", "Tea Factory","chocolate Factory", "Botanical Garden", "Wax museum", "Rose Garden"]
+          itinerary: ["Doddabetta", "Tea Factory","chocolate Factory", "Botanical Garden", "Wax museum", "Rose Garden","Ooty Lake","Thread Garden","Local Shopping"]
         },
         { 
           name: "Coonoor", 
           image: "/assets/images/package-conoor.jpg",
-          itinerary: ["Sim's Park", "Tea Garden", "Lam's Park", "Toy train ride", "Dolphin's Nose", "Hidden Valley exploration"]
+          itinerary: ["Sim's Park", "Tea Garden", "Lam's Rock", "Toy train ride", "Dolphin's Nose", "Hidden Valley exploration","Valley view","MRC(Outer view)","MRC Golf Club(Outer view)","Sleeping lady view Point","Catherine Falls(Outer view)","MRC Museum"]
         },
         { 
           name: "Pykara", 
           image: "/assets/images/pykara.jpg",
-          itinerary: ["Golf course view", "Pine forest", "kamarajar dam", "Tree Park", "Pykara Water falls and boating"]
+          itinerary: ["Golf course view", "Pine forest", "kamarajar dam", "Tree Park", "Pykara Water falls and boating","Wenlock downs Shooting Point(9th mile)"]
         },
         { 
           name: "Mudumalai", 
@@ -44,12 +44,12 @@ const PackageDetailPage = () => {
         { 
           name: "Avalanche", 
           image: "/assets/images/4.jpg",
-          itinerary: []
+          itinerary: ["Avalanche Jungle safari","Eco Forest","Emerald Dam(Outer view)","Tribal Museum","Karnataka Horticulture Garden"]
         },
         { 
-          name: "Karnataka Horticulture Garden", 
+          name: "Kodanad", 
           image: "/assets/images/5.jpg",
-          itinerary: []
+          itinerary: ["Tea Park","Nehru Park","Pandian Park","Tribal Templr(Outer view)","Kodanad(View point)"]
         }
       ]
     },
