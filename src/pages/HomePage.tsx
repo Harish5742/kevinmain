@@ -44,14 +44,14 @@ const HomePage = () => {
     {
       id: 'ooty-package',
       name: "Ooty Hill Station Special",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/assets/images/17.jpg",
       description: "Explore the Queen of Hill Stations with its gardens and lakes",
       highlights: ["Botanical Gardens", "Ooty Lake", "Doddabetta Peak"]
     },
     {
       id: 'other-packages',
       name: "Other South India Destinations",
-      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/assets/images/16.jpg",
       description: "Discover amazing destinations across South India",
       highlights: ["Backwater Cruises", "Tea Plantations", "Historic Sites"]
     }
@@ -83,7 +83,7 @@ const HomePage = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center transition-opacity duration-1000"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)`,
+              backgroundImage: "/assets/images/20.jpg",
               opacity: imageLoaded ? 1 : 0 
             }}
             onLoad={() => setImageLoaded(true)}

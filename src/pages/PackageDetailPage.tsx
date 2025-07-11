@@ -15,7 +15,7 @@ const PackageDetailPage = () => {
   const packageData = {
     'ooty-package': {
       name: "Ooty Package",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+      image: "/assets/images/ooty-package.jpg",
       description: "Experience the Queen of Hill Stations with its pristine beauty, lush gardens, and serene lakes.",
       additionalDays: "Can be extended to 4-7 days with custom itinerary",
       rating: 4.8,
@@ -23,39 +23,39 @@ const PackageDetailPage = () => {
       locations: [
         { 
           name: "Ooty", 
-          image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          itinerary: ["Rose Garden visit", "Government Museum", "Charring Cross shopping", "Local cuisine tasting", "Botanical Gardens tour", "Ooty Lake boating"]
+          image: "/assets/images/ooty-package.jpg",
+          itinerary: ["Doddabetta", "Tea Factory","chocolate Factory", "Botanical Garden", "Wax museum", "Rose Garden"]
         },
         { 
           name: "Coonoor", 
-          image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          itinerary: ["Sim's Park", "Lamb's Rock viewpoint", "Tea factory visit", "Toy train ride", "Dolphin's Nose", "Hidden Valley exploration"]
+          image: "/assets/images/package-conoor.jpg",
+          itinerary: ["Sim's Park", "Tea Garden", "Lam's Park", "Toy train ride", "Dolphin's Nose", "Hidden Valley exploration"]
         },
         { 
           name: "Pykara", 
-          image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          itinerary: ["Pykara Falls", "Boat house activities", "Nature photography", "Picnic spots", "Pykara Lake", "Shooting Point"]
+          image: "/assets/images/pykara.jpg",
+          itinerary: ["Golf course view", "Pine forest", "kamarajar dam", "Tree Park", "Pykara Water falls and boating"]
         },
         { 
           name: "Mudumalai", 
-          image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/3.jpg",
           itinerary: ["Wildlife safari", "Elephant camp visit", "Nature walks", "Bird watching", "Theppakadu Elephant Camp", "Jungle trekking"]
         },
         { 
           name: "Avalanche", 
-          image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          itinerary: ["Lake boating", "Trout fishing", "Mountain trekking", "Scenic viewpoints", "Avalanche Lake", "Silent Valley views"]
+          image: "/assets/images/4.jpg",
+          itinerary: []
         },
         { 
-          name: "Kodanad", 
-          image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          itinerary: ["Viewpoint sightseeing", "Valley photography", "Tea plantation walk", "Sunset viewing", "Kodanad View Point", "Catherine Falls"]
+          name: "Karnataka Horticulture Garden", 
+          image: "/assets/images/5.jpg",
+          itinerary: []
         }
       ]
     },
     'other-packages': {
       name: "Other Packages",
-      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+      image: "/assets/images/7.jpg",
       description: "Discover amazing destinations across South India starting from Ooty.",
       note: "All trips start from Ooty. Beginning location cannot be customized.",
       additionalDays: "Flexible 2-10 day packages available based on destinations",
@@ -64,32 +64,32 @@ const PackageDetailPage = () => {
       locations: [
         { 
           name: "Kochi", 
-          image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/8.jpg",
           itinerary: ["Chinese Fishing Nets", "Fort Kochi walk", "Spice market tour", "Backwater cruise", "Mattancherry Palace", "Marine Drive"]
         },
         { 
           name: "Munnar", 
-          image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/9.jpeg",
           itinerary: ["Tea plantation visit", "Eravikulam National Park", "Top Station viewpoint", "Mattupetty Dam", "Echo Point", "Anamudi Peak"]
         },
         { 
           name: "Coorg", 
-          image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/10.jpg",
           itinerary: ["Coffee plantation tour", "Abbey Falls", "Raja's Seat", "Dubare Elephant Camp", "Talacauvery", "Brahmagiri Hills"]
         },
         { 
           name: "Mysore", 
-          image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/11.jpg",
           itinerary: ["Mysore Palace", "Chamundi Hills", "Brindavan Gardens", "Local market visit", "St. Philomena's Church", "Karanji Lake"]
         },
         { 
           name: "Bangalore", 
-          image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/12.jpg",
           itinerary: ["Lalbagh Gardens", "Bangalore Palace", "Commercial Street shopping", "Ulsoor Lake", "Cubbon Park", "Vidhana Soudha"]
         },
         { 
           name: "Wayanad", 
-          image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "/assets/images/13.jpg",
           itinerary: ["Edakkal Caves", "Banasura Sagar Dam", "Chembra Peak trek", "Spice plantation visit", "Soochipara Falls", "Pookode Lake"]
         }
       ]

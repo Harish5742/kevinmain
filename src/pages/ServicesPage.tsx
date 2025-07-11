@@ -29,7 +29,7 @@ const ServicesPage = () => {
   const vehicles = [
     {
       type: "Sedan",
-      image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/assets/images/14.jpg",
       capacity: "4 Passengers",
       luggage: "2-3 Bags",
       suitable: "Couples, Small families",
@@ -37,15 +37,15 @@ const ServicesPage = () => {
     },
     {
       type: "SUV",
-      image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/assets/images/15.jpg",
       capacity: "6-7 Passengers", 
       luggage: "4-5 Bags",
       suitable: "Families, Small groups",
       features: ["AC", "Spacious interior", "High ground clearance"]
     },
-    {
+   {
       type: "Tempo Traveller",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/assets/images/25.jpeg",
       capacity: "12+ Passengers",
       luggage: "Large luggage space",
       suitable: "Large groups, Corporate tours",

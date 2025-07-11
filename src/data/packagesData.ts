@@ -3,7 +3,7 @@ export const mainPackages = [
   {
     id: 'ooty-package',
     name: "Ooty Package",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/assets/images/20.jpg",
     description: "Explore the Queen of Hill Stations with its beautiful gardens, serene lakes, and misty mountains",
     highlights: ["Botanical Gardens", "Ooty Lake", "Doddabetta Peak", "Tea Gardens"],
     places: [
@@ -111,7 +111,7 @@ export const mainPackages = [
   {
     id: 'other-packages',
     name: "Other Packages",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/assets/images/21.jpeg",
     description: "Discover amazing destinations across South India starting from Ooty",
     highlights: ["South India Tours", "Cultural Heritage", "Nature Escapes", "Historic Sites"],
     note: "All trips start from Ooty. Beginning location cannot be customized for other packages.",
