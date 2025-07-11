@@ -63,6 +63,11 @@ const PackageDetailPage = () => {
       totalReviews: 189,
       locations: [
         { 
+          name: "Kodaikanal", 
+          image: "/assets/images/f.jpeg",
+          itinerary: ["Kodaikanal Lake", "Pillar Rocks", "Guna Caves (Devil’s Kitchen)", "Pine Forest", "Dolphin’s Nose", "Upper Lake View"]
+        },
+        { 
           name: "Kochi", 
           image: "/assets/images/8.jpg",
           itinerary: ["Chinese Fishing Nets", "Fort Kochi walk", "Spice market tour", "Backwater cruise", "Mattancherry Palace", "Marine Drive"]
