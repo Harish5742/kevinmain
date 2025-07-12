@@ -49,7 +49,7 @@ const PackageDetailPage = () => {
         { 
           name: "Kodanad", 
           image: "/assets/images/5.jpg",
-          itinerary: ["Tea Park","Nehru Park","Pandian Park","Tribal Templr(Outer view)","Kodanad(View point)"]
+          itinerary: ["Tea Park","Nehru Park","Pandian Park","Tribal Temple(Outer view)","Kodanad(View point)"]
         }
       ]
     },
